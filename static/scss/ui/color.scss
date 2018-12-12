@@ -1,0 +1,82 @@
+@charset 'utf-8';
+
+$color-b1:              rgba(#111,1);
+$color-ff:              rgba(#fff,1);
+$black:                 rgba(#000,1);
+$color-wu:              rgba(#555,1);
+$color-qi:              rgba(#777,1);
+$color-cc:              rgba(#ccc,1);
+$color-dd:              rgba(#ddd,1);
+$color-pp:              rgba(#0099cc,1);
+$color-ee:              rgba(#eee,1);
+$color-aa:              rgba(#aaa,1);
+$color-e0:              rgba(#34404D,1);
+$color-f1:              rgba(#f1f1f1,1);
+$color-f2:              rgba(#F2F2F2,1);
+$color-f3:              rgba(#F3F3F3,1);
+$color-f4:              rgba(#F4F4F4,1);
+$color-f5:              rgba(#F5F5F5,1);
+$color-f6:              rgba(#F6F6F6,1);
+$color-f7:              rgba(#F7F7F7,1);
+$color-f8:              rgba(#f8f9fa,1);
+$color-f9:              rgba(#f9f9f9,1);
+$color-fc:              rgba(#f8fafc,1);
+$color-e5:              rgba(#E5E5E5,1);
+$color-e8:              rgba(#00A0E8,1);
+$color-e9:              rgba(#027cb3,1);
+$color-d1:              rgba(#D1D1D1,1);
+$color-d4:              rgba(#DADADA,1);
+$color-d8:              rgba(#D8D8D8,1);
+
+$ac-color:              rgba(#2aa75a,1); //CrossChex 主色
+$ac-bg:                 rgba(#303030,1); //CrossChex 辅色
+$ac-high-color:         rgba(#34c16a,1); //CrossChex 的高亮状态
+$cc-color:              rgba(#ea6003,1); //云考勤主色
+
+$color-success:         rgba(#67C23A,1);
+$color-warning:         rgba(#E6A23C,1);
+$color-danger:          rgba(#F56C6C,1);
+$color-info:            rgba(#909399,1);
+$color-bule:            rgba(#00c0ef,1);
+$color-orange:          rgba(#f39c12,1);
+$color-green:           rgba(#1eea07,1);
+
+$off-bg:                rgba(#f51212,1); //离线背景
+
+$font-main:             rgba(#303133,1); //主要
+$font-common:           rgba(#606266,1); //常规
+$font-sub:              rgba(#909399,1); //次要
+$font-seat:             rgba(#C0C4CC,1); //占位
+
+
+$border-class-a:        rgba(#DCDFE6,1);  //深
+$border-class-b:        rgba(#E4E7ED,1);  //次深
+$border-class-c:        rgba(#EBEEF5,1);  //浅
+$border-class-d:        rgba(#F2F6FC,1);  //次浅
+
+$light-gray:            rgba(#6B6B6B,1) !default;
+$dark-gray:             rgba(#393939,1) !default;
+$input-border:          rgba(#979797,1) !default;
+$selected:              rgba(#FF6701,1) !default;
+$logo:                  rgba(#FF6701,1) !default;
+$logo-hover:            rgba(#ea6003,1) !default;
+$slider-hover:          rgba(#a24303,1) !default;
+$icon:                  rgba($color-ff,1) !default;
+$scrollbar:             rgba($black,.24) !default;
+$scrollbar-bg:          rgba($color-ff,.08) !default;
+$filter-pannel-color:   rgba(69,74,82, 1);
+$border-color:          rgba(236, 238, 239, .2);
+$body-default-color:    rgba($color-f5,1);
+
+$green:                 rgba(#2EBA00,1) !default;
+$green-hover:           rgba(#36ce04,1) !default;
+$purple:                rgba(#BD10E0,1) !default;
+$danger:                rgba(#D0021B,1) !default;
+$danger-hover:          rgba(#e0051f,1) !default;
+$offline-bg:            rgba(#D0021B,.1) !default;
+
+$opacity-seventy: 70;
+
+$html-bg:               linear-gradient($light-gray, $dark-gray) !default; //默认渐变背景
+$body-bg:               $color-fc; //默认可调节背景
+$card-bg:               $color-fc; //默认card背景，与boxshadow一起使用
